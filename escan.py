@@ -42,7 +42,7 @@ p2222 = [2222]
 rd = range(2223,65535)
 ports = p443 + p80 + p21 + p22 + p8080 + p25 + p26 + p53 + p110 + p143 + p465 + p587 + p3306 + p8443 + p993 + p995 + p2222 + p135 + p139 + p445 + rd
 
-print "PORT  STATE  SERVIE"
+print "PORT  STATE  SERVICE"
 
 for port in p80:
      client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
